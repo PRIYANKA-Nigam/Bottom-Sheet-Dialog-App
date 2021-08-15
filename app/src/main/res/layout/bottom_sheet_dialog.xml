@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    android:gravity="center"  android:padding="30dp">
+    <ImageView
+        android:layout_width="150dp" android:layout_height="150dp"
+        android:cropToPadding="true"
+        android:src="@drawable/ic_baseline_broken_image_24"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/ed"
+        android:hint="Enter Username" android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_edittext"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/ed2"
+        android:hint="Enter Password"  android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_edittext"/>
+    <Button
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/but"  android:text="Submit"
+        android:textColor="@android:color/white" android:layout_marginTop="20dp"
+        android:background="@drawable/round_button" />
+</LinearLayout>
